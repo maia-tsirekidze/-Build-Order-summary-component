@@ -9,6 +9,7 @@ width: 100%;
 background-repeat: no-repeat;
 }
 .conteiner{
+    max-width:100%;
     width: 450px;
   margin: 102px auto;
   background-color: white;
