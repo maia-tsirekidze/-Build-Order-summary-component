@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-image:url("./img/pattern-background-desktop.svg") ;
+width: 100%;
+background-repeat: no-repeat;
+}
+.conteiner{
+    width: 450px;
+  margin: 102px auto;
+  background-color: white;
+  border-radius: 20px;
+}
+.conteiner img{
+    max-width: 100%;
+   border-radius: 20px;
+}
+.conteiner h2{
+    max-width: 100% ;
+    padding: 45px 48px 0 48px ;
+    text-align: center;
+}
+.conteiner p{
+    max-width: 100%;
+    padding: 17px 48px 0 48px;
+    text-align: center;
+    font-weight: 123;
+    font-size: 16px;
+    line-height:26px ;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+.box{
+    max-width: 100%;
+    padding: 20px 48px 0 48px ;
+    
+    display: flex;
+    flex-direction: row;
+}
+.box img{
+    width: 48px;
+    height: 48px;
+}
+.box .box-child{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 10px;
+}
+.box-child h5{
+    margin-top: 2px;
+    font-weight: 100;
+
+}
+.box-o{
+    display: flex;
+    margin:-10px -17px 0 auto;
+    cursor: pointer;
+}
+
+
+h6{
+    max-width: 100%;
+    padding: 32px 178px 48px 178px ;
+    color:#717fa6;
+    cursor: pointer;
+}
+.btnone{
+    border: none;
+    border-radius: 20px;
+    width: 354px;
+    height: 50px;
+    margin: 32px 48px 0 48px;
+   background-color: #382ae1;
+   color: white;
+   cursor: pointer;
+}
