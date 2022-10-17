@@ -26,12 +26,8 @@
     bottom: 0;
 }
 .conteiner{
-<<<<<<< HEAD
     z-index: 1;
-    max-width: 100%;
-=======
     max-width:100%;
->>>>>>> 81c0e4c929078bb03a5951ff2a7d13792a32db0c
     width: 450px;
   margin: 102px auto;
   background-color: white;
