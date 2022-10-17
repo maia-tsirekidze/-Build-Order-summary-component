@@ -3,12 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-background-image:url("./img/pattern-background-desktop.svg") ;
-width: 100%;
-background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.box-wraper{
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e8ff;
+}
+.img-back{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 .conteiner{
+<<<<<<< HEAD
+    z-index: 1;
+    max-width: 100%;
+=======
+    max-width:100%;
+>>>>>>> 81c0e4c929078bb03a5951ff2a7d13792a32db0c
     width: 450px;
   margin: 102px auto;
   background-color: white;
@@ -22,15 +45,18 @@ background-repeat: no-repeat;
     max-width: 100% ;
     padding: 45px 48px 0 48px ;
     text-align: center;
+    font-family: 'Red Hat Display';
+    color:#1F2E55;
 }
-.conteiner p{
+.conteiner .paragraf{
     max-width: 100%;
-    padding: 17px 48px 0 48px;
+    padding: 17px 48px 20px 48px;
     text-align: center;
-    font-weight: 123;
+    font-weight: 500;
     font-size: 16px;
     line-height:26px ;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Display';
+    color:#717fa6;
     
 }
 
@@ -40,6 +66,7 @@ background-repeat: no-repeat;
     
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .box img{
     width: 48px;
@@ -51,31 +78,73 @@ background-repeat: no-repeat;
     
     margin-left: 10px;
 }
-.box-child h5{
+.box-child h3{
     margin-top: 2px;
-    font-weight: 100;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
 
+}
+.box-child h5{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
 }
 .box-o{
-    display: flex;
-    margin:-10px -17px 0 auto;
+    /* display: flex; */
+    margin:0 10px 0 auto;
     cursor: pointer;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+    transition: 0.3s ease-in-out;
+
 }
 
+
+.box-o:hover{
+    color: #766CF1;
+    text-decoration-line: none;
+}
 
 h6{
     max-width: 100%;
-    padding: 32px 178px 48px 178px ;
+    margin: 32px 178px 48px 178px ;
     color:#717fa6;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+h6:hover{
+    color:#1f2e55;
 }
 .btnone{
+    max-width: 100%;
     border: none;
     border-radius: 20px;
-    width: 354px;
-    height: 50px;
+    /* width: 354px;
+    height: 50px; */
     margin: 32px 48px 0 48px;
+    padding: 15px 102px;
    background-color: #382ae1;
    color: white;
    cursor: pointer;
+   font-family: 'Red Hat Display';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 15px;
+   line-height: 20px;
+   transition: all 0.3s initial;
+}
+.btnone:hover{
+    background-color: #766CF1;
 }
